@@ -1,15 +1,15 @@
 %define name mono-nat
-%define version 1.0.2
+%define version 1.1.0
 %define release %mkrel 1
 
 Summary: Network Address Translation library for Mono
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://www.monsoon-project.org/jaws/data/files/%{name}-%{version}.tar.gz
+Source0: %{name}-%{version}.tar.gz
 License: MIT
 Group: System/Libraries
-Url:  http://www.monsoon-project.org/jaws/index.php?
+Url:  http://projects.qnetp.net/news/show/8
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildArch: noarch
