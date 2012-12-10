@@ -36,3 +36,24 @@ rm -rf %{buildroot}
 %_prefix/lib/mono-nat
 %_datadir/pkgconfig/mono.nat.pc
 
+
+
+%changelog
+* Thu Mar 08 2012 Götz Waschk <waschk@mandriva.org> 1.1.0-2mdv2012.0
++ Revision: 783402
+- yearly rebuild
+
+* Mon Mar 07 2011 Götz Waschk <waschk@mandriva.org> 1.1.0-1
++ Revision: 642410
+- new version
+- update URL
+
+* Tue Jun 30 2009 Götz Waschk <waschk@mandriva.org> 1.0.2-1mdv2011.0
++ Revision: 390907
+- new version
+
+* Fri Feb 20 2009 Götz Waschk <waschk@mandriva.org> 1.0-1mdv2009.1
++ Revision: 343228
+- import mono-nat
+
+
