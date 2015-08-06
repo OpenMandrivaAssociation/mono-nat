@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.gz
+Source100: %{name}.rpmlintrc
 License: MIT
 Group: System/Libraries
 Url:  http://projects.qnetp.net/news/show/8
