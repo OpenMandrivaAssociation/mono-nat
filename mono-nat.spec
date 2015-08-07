@@ -1,6 +1,6 @@
 %define name mono-nat
 %define version 1.1.0
-%define release 4
+%define release 5
 
 Summary: Network Address Translation library for Mono
 Name: %{name}
