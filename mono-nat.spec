@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 License: MIT
 Group: System/Libraries
-Url:  http://projects.qnetp.net/news/show/8
+Url:  https://projects.qnetp.net/news/show/8
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildArch: noarch
