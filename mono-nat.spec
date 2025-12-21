@@ -12,6 +12,11 @@ License: MIT
 Group: System/Libraries
 Url:  https://projects.qnetp.net/news/show/8
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: mono-devel
 BuildArch: noarch
 
